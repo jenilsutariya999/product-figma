@@ -1,0 +1,1605 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-site-wrapper {
+    background: linear-gradient(94.64deg, #E1E1E1 0.3%, #F4F2F0 50.73%, #E1E1E1 100%);
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    max-width: 1219px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.product-info {
+    width: 100%;
+    max-width: 1219px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.add-product {
+    width: 100%;
+    max-width: 1219px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.add-product-tow {
+    width: 100%;
+    max-width: 1219px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.first-section {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 1219px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.header-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+}
+
+.logo a {
+    color: black;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: Lexend;
+
+}
+
+.logo span {
+    color: orange;
+}
+
+.header-menu ul li {
+    display: inline;
+    padding: 0 17px;
+}
+
+.header-menu ul li a {
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22.5px;
+    font-family: Lexend;
+}
+
+.header-search {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-img img {
+    width: 286px;
+    height: 46px;
+    padding: 13px, 80px, 13px, 20px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-right: 19px;
+
+}
+
+.nav-icon p {
+    padding: 0px 7px;
+    display: inline;
+    font-size: 31px;
+}
+
+.slider-first {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 665px;
+}
+
+/* ::after {
+    color: orangered;
+    font-size: 20px;
+} */
+
+.left-slider {
+    width: 100%;
+    max-width: 40%;
+    position: absolute;
+    top: 145px;
+    left: 81px;
+}
+
+.right-slider {
+    width: 100%;
+    max-width: 50%;
+    position: absolute;
+    top: 65px;
+    left: 750px;
+}
+
+.right-main-img img {
+    position: absolute;
+    right: 33%;
+    z-index: 1;
+    animation: myfirst 5s infinite linear;
+    animation-direction: alternate;
+}
+
+@keyframes myfirst {
+    0% {
+        top: 0px;
+        bottom: 0px;
+    }
+
+    50% {
+        top: 70px;
+        bottom: 70px;
+    }
+
+    100% {
+        top: 0px;
+        bottom: 0px;
+    }
+}
+
+.right-img {
+    position: absolute;
+    top: 264px;
+    z-index: -1;
+    left: -210px;
+    background-color: rgb(241, 239, 239);
+    padding: 33px;
+    width: 50%;
+    height: 180px;
+}
+
+.right-img p {
+    font-size: 10px;
+    font-family: 'Lexend';
+
+}
+
+.home-p p {
+    text-decoration: line-through;
+    margin: auto 0;
+}
+
+.home-p {
+    display: flex;
+}
+
+.right-img span {
+    font-size: 20px;
+}
+
+.slider-img img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.home-title {
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Lexend';
+    margin-bottom: 20px;
+}
+
+.home-dec {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Lexend';
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 89%;
+}
+
+.home-btn a {
+    background-color: #F8713A;
+    display: inline;
+    padding: 12px 9px;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Lexend';
+}
+
+.slider-home {
+    position: relative;
+}
+
+.star img {
+    width: 13px;
+    height: 13px;
+}
+
+.star {
+    display: flex;
+}
+
+.box {
+    width: 100%;
+    max-width: 22%;
+    background-color: whitesmoke;
+    height: 414px;
+    position: relative;
+
+}
+
+.main-box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-wrapper {
+    margin-top: 70px;
+}
+
+.product-information p {
+    font-size: 10px;
+    font-family: 'Lexend';
+}
+
+.product-information span {
+    font-size: 17px;
+}
+
+.product-information .star {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-information .star p {
+    font-size: 17px;
+    font-family: 'Lexend';
+}
+
+.product-information {
+    padding: 0px 17px;
+}
+
+.box .view-btn {
+    background-color: rgb(236, 236, 236);
+    color: orange;
+    border: 2px solid #F8713A;
+    padding: 2px 9px;
+    border-radius: 7px;
+    margin-left: 38%;
+    display: inline-block;
+    visibility: hidden;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(100%);
+}
+
+.view-btn a {
+    color: #F8713A;
+    font-family: 'Lexend';
+    font-weight: 300;
+}
+
+.box:hover .view-btn {
+    visibility: visible;
+    cursor: pointer;
+    transform: translateY(0);
+}
+
+.product-main-title {
+    font-size: 24px;
+    font-family: 'Lexend';
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+
+.product-visite-title {
+    font-size: 30px;
+    font-family: 'Lexend';
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.pro-box {
+    width: 100%;
+    max-width: 195px;
+    background-color: ghostwhite;
+    text-align: center;
+    font-family: 'Lexend';
+    position: relative;
+    height: 233px;
+    border-radius: 10px;
+}
+
+.product-visite-img img {
+    width: 100%;
+    max-width: 155px;
+    margin: 10px auto;
+    display: block;
+    background: linear-gradient(to top, #ccc 0%, #cccccc2b 50%, #fff 50%, #fff 100%);
+    border-radius: 15px;
+    height: 100%;
+    min-height: 177px;
+    object-fit: contain;
+}
+
+.main-pro-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.add-btn {
+    background-color: #131313;
+    display: inline-block;
+    padding: 9px 11px;
+}
+
+.add-btn a {
+    color: #FFFFFF;
+    font-family: 'Lexend';
+}
+
+.add-product-left {
+    width: 100%;
+    max-width: 50%;
+    height: 400px;
+}
+
+.add-product-right {
+    width: 100%;
+    max-width: 40%;
+    height: 400px;
+}
+
+.add-product-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 105px;
+    position: relative;
+    background-color: rgb(225, 224, 224);
+    width: 100%;
+    height: 440px;
+    max-width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+
+}
+
+.add-product-right p {
+    width: 100%;
+    max-width: 94%;
+    font-family: 'Lexend';
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.add-star img {
+    width: 16px;
+    height: 16px;
+    margin: auto 0;
+}
+
+.add-star p {
+    font-family: 'Lexend';
+    font-size: 14px;
+}
+
+.add-star {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-product-left .image2 {
+    position: relative;
+    top: -80%;
+    left: 69%;
+}
+
+.add-product-left .image1 {
+    width: 571px;
+    height: 404.5px;
+}
+
+.add-product-left-tow .image4 {
+    width: 600px;
+    height: 404.5px;
+}
+
+.add-product-right {
+    width: 100%;
+    max-width: 40%;
+    margin-left: 54px;
+    margin-top: 74px;
+}
+
+.add-product-right h2 {
+    font-family: 'Lexend';
+    font-size: 36px;
+    line-height: 44px;
+}
+
+img.image3 {
+    position: absolute;
+    top: 25%;
+    right: 36%;
+}
+
+.add-product-left-tow {
+    width: 100%;
+    max-width: 50%;
+    height: 400px;
+}
+
+.add-product-box-tow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 105px;
+    position: relative;
+    background-color: rgb(225, 224, 224);
+    width: 100%;
+    height: 440px;
+    max-width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+
+}
+
+.add-product-right-tow p {
+    width: 100%;
+    max-width: 94%;
+    font-family: 'Lexend';
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.add-star img {
+    width: 16px;
+    height: 16px;
+    margin: auto 0;
+}
+
+.product-main-title img {
+    width: 100px;
+}
+
+.add-star p {
+    font-family: 'Lexend';
+    font-size: 14px;
+}
+
+.add-star {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro-box-haert-icon i {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: rgba(149, 158, 173, 1);
+}
+
+.product-main-title img {
+    width: 96px;
+    height: 43px;
+    margin-right: 20px;
+    padding: 3px;
+}
+
+.add-product-left-tow .image2 {
+    position: relative;
+    top: -80%;
+    left: 68%;
+}
+
+.add-product-left-tow .image1 {
+    width: 571px;
+    height: 404.5px;
+    margin-left: 44px;
+}
+
+.add-product-right-tow {
+    width: 100%;
+    max-width: 40%;
+    margin-top: 74px;
+}
+
+.add-product-right-tow h2 {
+    font-family: 'Lexend';
+    font-size: 36px;
+    line-height: 44px;
+}
+
+/* <--section--> */
+.product-date {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pro-date {
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 6px;
+    width: 75px;
+    height: 73px;
+    text-align: center;
+    margin: 10px;
+}
+
+.product-main-title {
+    font-size: 24px;
+    font-family: 'Lexend';
+    margin-left: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro-date span {
+    color: #F8713A;
+}
+
+.product-date p {
+    margin: auto 0;
+    font-size: 20px;
+}
+
+.pro-view-btn {
+    border: 1px solid black;
+    padding: 9px 16px 10px 15px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 113px;
+    margin: 0 auto;
+    margin-top: 67px;
+    margin-bottom: 100px;
+}
+
+.pro-view-btn a {
+    color: rgba(19, 19, 19, 1);
+    font-family: 'Lexend';
+}
+
+/* <--section--> */
+
+.pro-questions-wrapper {
+    text-align: center;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.pro-questions-wrapper .question-title {
+    font-size: 40px;
+    font-family: 'Lexend';
+    max-width: 79%;
+    margin: 0 auto;
+
+}
+
+.question-one p {
+    font-size: 28px;
+    font-family: 'Lexend';
+}
+
+.question-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.question-des {
+    font-size: 18px;
+    font-family: 'Lexend';
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.question-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.question-two {
+    font-size: 24px;
+    font-family: 'Lexend';
+}
+
+.question-three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: 'Lexend';
+}
+
+.question-view-btn {
+    border: 1px solid black;
+    padding: 9px 16px 10px 15px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 120px;
+    margin: 0 auto;
+    margin-top: 67px;
+    margin-bottom: 100px;
+}
+
+.question-view-btn a {
+    color: rgba(19, 19, 19, 1);
+    font-family: 'Lexend';
+}
+
+/* <--section--> */
+
+.pro-subscribe-wrapper {
+    background-image: url(./img/BG.png);
+    object-fit: fill;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 297px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.subscribe-title {
+    font-size: 39px;
+    font-family: 'Lexend';
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding-top: 70px;
+}
+
+.subscribe-box input {
+    height: 57px;
+    background-color: transparent !important;
+    border: 1px solid rgba(212, 212, 216, 1);
+    border-radius: 7px;
+    color: white;
+    padding: 11px;
+    width: 268px;
+    font-family: 'Lexend';
+
+}
+
+.subscribe-box {
+    text-align: center;
+    margin-top: 40px;
+    padding: 0 30px;
+}
+
+.subscribe-box button {
+    background-color: white !important;
+    height: 57px;
+    width: 230px;
+    border-radius: 7px;
+    font-family: 'Lexend';
+    font-weight: 600;
+}
+
+/* <--footer--> */
+
+.main-footer {
+    background-color: rgba(19, 19, 19, 1);
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 30px 0;
+    margin-top: 100px;
+}
+
+.footer-all-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.footer-column {
+    width: 100%;
+    max-width: 248px;
+    height: auto;
+    font-family: 'Lexend';
+}
+
+.footer-column2 {
+    width: 100%;
+    max-width: 73px;
+    height: auto;
+    font-family: 'Lexend';
+}
+
+.footer-column3 {
+    width: 100%;
+    max-width: 131px;
+    height: auto;
+    font-family: 'Lexend';
+}
+
+.footer-column4 {
+    width: 100%;
+    max-width: 146px;
+    height: auto;
+    font-family: 'Lexend';
+}
+
+
+.footer-column-title {
+    font-family: 'Lexend';
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-column-title span {
+    color: #F8713A;
+}
+
+.footer-column-des {
+    font-family: 'Lexend';
+    font-size: 14px;
+    max-width: 80%;
+    line-height: 22px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-column-icon i {
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    padding: 6px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-column-icon {
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer-column-title-tow p {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.footer-column-des-tow {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 22px;
+    padding: 7px 0px;
+}
+
+.footer-column-des-tow p {
+    padding: 9px 0px;
+}
+
+.footer-center p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(113, 113, 122, 1);
+    line-height: 22px;
+    font-family: 'Lexend';
+}
+
+.bottom-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-right svg {
+    width: 38px;
+    height: 30px;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.footer-right img {
+    width: 35px;
+    height: 22px;
+}
+
+/* <--media--> */
+
+@media screen and (max-width: 767px) {
+    .header-menu {
+        display: none;
+    }
+
+    .header-search {
+        display: none;
+    }
+
+    .home-title p {
+        font-size: 18px;
+    }
+
+    div#swiper-wrapper-fa6231d142816a99 {
+        display: block;
+    }
+
+    div#swiper-wrapper-3510365d6e1016fc48 {
+        display: block;
+    }
+
+    .main-site-wrapper {
+        background: linear-gradient(94.64deg, #E1E1E1 0.3%, #F4F2F0 50.73%, #E1E1E1 100%);
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    header {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .product-info {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .add-product {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .add-product-tow {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .first-section {
+        background-color: #FFFFFF;
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .left-slider {
+        width: 100%;
+        max-width: 100%;
+        position: static;
+        margin-left: 36px;
+    }
+
+    .right-slider {
+        width: 100%;
+        max-width: 100%;
+        position: static;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+
+    .swiper-button-next {
+        display: none;
+    }
+
+    .slider-home {
+        position: static;
+    }
+
+    .slider-first {
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        width: 100%;
+        display: block;
+        height: 383px;
+        padding-top: 17px;
+        margin-top: 51px;
+    }
+
+    element.style {
+        width: 100%;
+    }
+
+    .home-title {
+        font-weight: 700;
+        font-size: 35px;
+        font-family: 'Lexend';
+        margin-bottom: 20px;
+    }
+
+    .home-dec {
+        font-size: 13px;
+        font-weight: 500;
+        font-family: 'Lexend';
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 89%;
+    }
+
+    .home-btn a {
+        background-color: #F8713A;
+        display: inline;
+        padding: 8px 5px;
+        color: white;
+        border-radius: 3px;
+        font-family: 'Lexend';
+        font-size: 13px;
+    }
+
+    .right-img {
+        background-color: rgb(241, 239, 239);
+        padding: 33px;
+        width: 100%;
+        height: 180px;
+        display: none;
+    }
+
+    .swiper-button-prev.swiper-button-disabled {
+        font-size: 20px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after {
+        content: 'next';
+        font-size: 20px;
+    }
+
+    .swiper-button-prev {
+        font-size: 20px;
+    }
+
+    .swiper-button-prev {
+        font-size: 20px;
+    }
+
+    .right-main-img img {
+        animation: unset;
+        animation-direction: unset;
+        width: 100%;
+        height: 100%;
+        display: block;
+        max-width: 200px;
+        max-height: 200px;
+        object-fit: contain;
+    }
+
+    .product-main-title {
+        font-size: 19px;
+        font-family: 'Lexend';
+        margin-left: 18px;
+        margin-bottom: 20px;
+        display: block;
+        /* justify-content: space-between; */
+    }
+
+    .main-box-wrapper {
+        display: block;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+    }
+
+    .box {
+        width: 100%;
+        max-width: 100%;
+        background-color: whitesmoke;
+        height: 404px;
+        position: relative;
+        margin: 10px auto;
+    }
+
+    .product-visite-title {
+        font-size: 22px;
+        font-family: 'Lexend';
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .main-pro-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .pro-box {
+        width: 100%;
+        max-width: 78%;
+        background-color: ghostwhite;
+        text-align: center;
+        font-family: 'Lexend';
+        position: relative;
+        height: 233px;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+
+    .add-product-box {
+        display: flex;
+        flex-wrap: wrap;
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 105px;
+        position: static;
+        background-color: rgb(225, 224, 224);
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        padding: 16px;
+        border-radius: 10px;
+    }
+
+    .add-product-left {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .add-product-left .image1 {
+        width: 341px !important;
+        height: 206.5px !important;
+        object-fit: cover !important;
+    }
+
+    .box-image img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .add-product-left .image2 {
+        position: relative;
+        top: -80%;
+        left: 69%;
+        position: static;
+        display: none;
+    }
+
+    .add-product-right {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 21px;
+        margin-top: 23px;
+    }
+
+    .add-product-right h2 {
+        font-family: 'Lexend';
+        font-size: 25px;
+        line-height: 44px;
+    }
+
+    .add-product-box-tow {
+        display: flex;
+        flex-wrap: wrap;
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 105px;
+        position: relative;
+        position: static;
+        background-color: rgb(225, 224, 224);
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        padding: 0px;
+        border-radius: 10px;
+    }
+
+    .add-product-right-tow {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .add-product-right-tow h2 {
+        font-family: 'Lexend';
+        font-size: 22px;
+        line-height: 44px;
+    }
+
+    .add-product-right-tow p {
+        width: 100%;
+        max-width: 100%;
+        font-family: 'Lexend';
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .add-product-left-tow {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .add-product-left-tow .image4 {
+        width: 100%;
+        height: auto;
+        margin-left: 19px;
+        max-width: 91%;
+        margin-top: 35px;
+        object-fit: cover;
+    }
+
+    img.image3 {
+        position: absolute;
+        top: 25%;
+        position: static;
+        right: 36%;
+        display: none;
+    }
+
+    .product-date p {
+        margin: auto 0;
+        font-size: 16px;
+    }
+
+    .pro-date {
+        border: 1px solid black;
+        border-radius: 16px;
+        padding: 4px;
+        max-width: 49px;
+        width: 100%;
+        height: 55px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .pro-questions-wrapper {
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .pro-questions-wrapper .question-title {
+        font-size: 19px;
+        font-family: 'Lexend';
+        max-width: 79%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .question-one p {
+        font-size: 18px;
+        font-family: 'Lexend';
+    }
+
+    .question-des {
+        font-size: 15px;
+        font-family: 'Lexend';
+        text-align: left;
+        margin-bottom: 45px;
+    }
+
+    .question-two {
+        font-size: 18px;
+        font-family: 'Lexend';
+    }
+
+    .question-three {
+        /* display: flex; */
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 50px;
+        font-size: 15px;
+        font-family: 'Lexend';
+    }
+
+    .pro-subscribe-wrapper {
+        background-image: url(./img/BG.png);
+        object-fit: fill;
+        width: 100%;
+        max-width: 97%;
+        margin: 0 auto;
+        height: 360px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+
+    .subscribe-title {
+        font-size: 24px;
+        font-family: 'Lexend';
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        padding-top: 39px;
+    }
+
+    .subscribe-box {
+        text-align: center;
+        margin-top: 30px;
+        padding: 10px 8px;
+    }
+
+    .subscribe-box input {
+        height: 47px;
+        background-color: transparent !important;
+        border: 1px solid rgba(212, 212, 216, 1);
+        border-radius: 7px;
+        color: white;
+        padding: 15px;
+        width: 283px;
+        font-family: 'Lexend';
+        margin: 10px 0px;
+    }
+
+    .subscribe-box button {
+        background-color: white !important;
+        height: 52px;
+        width: 166px;
+        border-radius: 7px;
+        font-family: 'Lexend';
+        font-weight: 600;
+        margin: 10px;
+    }
+
+    .main-footer {
+        background-color: rgba(19, 19, 19, 1);
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 14px 0;
+        margin-top: 88px;
+    }
+
+    .footer-all-column {
+        flex-wrap: wrap;
+        display: block;
+        padding: 30px;
+    }
+
+    .footer-column {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        font-family: 'Lexend';
+    }
+
+    .footer-column-title {
+        font-family: 'Lexend';
+        font-size: 28px;
+        line-height: 44px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .footer-column2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        font-family: 'Lexend';
+        margin-top: 26px;
+    }
+
+    .footer-column-des-tow {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+        line-height: 22px;
+        /* padding: 0px 0px; */
+    }
+
+    .footer-column-des-tow p {
+        padding: 4px 0px;
+    }
+
+    .footer-column3 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        font-family: 'Lexend';
+        margin-top: 19px;
+    }
+
+    .footer-column4 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        font-family: 'Lexend';
+        margin-top: 19px;
+    }
+
+    .bottom-footer {
+        display: flex;
+        flex-wrap: wrap;
+        display: block;
+        justify-content: space-between;
+        margin-bottom: 22px;
+    }
+
+    .footer-left img {
+        width: 100%;
+        max-width: 68px;
+        margin-left: 23px;
+    }
+
+    .footer-center p {
+        font-size: 13px;
+        font-weight: 400;
+        color: rgba(113, 113, 122, 1);
+        line-height: 22px;
+        font-family: 'Lexend';
+        margin-left: 21px;
+        margin-top: 10px;
+    }
+
+    .footer-right {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+}
+
+/* <--media--> */
+
+@media screen and (max-width: 1024px) and (min-width: 767px){
+    header {
+        width: 100%;
+        max-width: unset;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .container {
+        width: 100%;
+        max-width: unset;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .logo a {
+        color: black;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 40px;
+        font-family: 'Lexend';
+    }
+
+    .header-main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 110px;
+    }
+
+    .header-menu ul li a {
+        color: black;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22.5px;
+        font-family: Lexend;
+    }
+    .search-img img {
+        width: 100%;
+        height: 43px;
+        padding: 13px, 80px, 13px, 20px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+        margin-right: 19px;
+        max-width: 83%;
+    } 
+    .nav-icon p {
+        padding: 0px 7px;
+        display: inline;
+        font-size: 29px;
+    }
+    .home-title {
+        font-weight: 700;
+        font-size: 39px;
+        font-family: 'Lexend';
+        margin-bottom: 20px;
+    }
+    .home-dec {
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Lexend';
+        margin-bottom: 25px;
+        width: 100%;
+        max-width: 89%;
+    }   
+    .home-btn a {
+        background-color: #F8713A;
+        display: inline;
+        padding: 9px 9px;
+        color: white;
+        border-radius: 3px;
+        font-family: 'Lexend';
+    }
+    .right-main-img img {
+        position: absolute;
+        right: 54%;
+        z-index: 1;
+        animation: myfirst 5s infinite linear;
+        animation-direction: alternate;
+        width: 100%;
+        max-width: 75%;
+    }
+    .right-img {
+        position: absolute;
+        top: 260px;
+        z-index: -1;
+        left: -347px;
+        background-color: rgb(241, 239, 239);
+        padding: 33px;
+        width: 50%;
+        height: 180px;
+    }
+    .box {
+        width: 100%;
+        max-width: 24%;
+        background-color: whitesmoke;
+        height: 398px;
+        position: relative;
+    }
+    .box-image img {
+        width: 100%;
+        max-width: 94%;
+        height: 267px;
+        object-fit: cover;
+    }
+    .product-visite-title {
+        font-size: 26px;
+        font-family: 'Lexend';
+        margin-top: 100px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .first-section {
+        background-color: #FFFFFF;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+    .pro-box {
+        width: 100%;
+        max-width: 265px;
+        background-color: ghostwhite;
+        text-align: center;
+        font-family: 'Lexend';
+        position: relative;
+        height: 233px;
+        border-radius: 10px;
+        /* padding: 10px 12px; */
+        margin: 10px;
+    }
+
+    .add-product-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 105px;
+        position: relative;
+        background-color: rgb(225, 224, 224);
+        width: 100%;
+        height: 395px;
+        max-width: 100%;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    .add-product-left .image1{
+        width: 517px;
+        height: 350.5px;
+    }
+    .add-product-left .image2 {
+        position: relative;
+        top: -69%;
+        left: 73%;
+        width: 201px;
+    }
+    .add-product-right h2 {
+        font-family: 'Lexend';
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .add-product-right p {
+        width: 100%;
+        max-width: 94%;
+        font-family: 'Lexend';
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    .add-product-left-tow .image4 {
+        width: 520px;
+        height: 373.5px;
+        object-fit: cover;
+    }
+    img.image3 {
+        position: absolute;
+        top: 23%;
+        right: 41%;
+        width: 201px;
+    }
+    .add-product-right-tow h2 {
+        font-family: 'Lexend';
+        font-size: 27px;
+        line-height: 44px;
+    }
+    .add-product-right-tow p {
+        width: 100%;
+        max-width: 94%;
+        font-family: 'Lexend';
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    
+}
